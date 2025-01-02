@@ -220,7 +220,7 @@ if run_report:
             'fill': {'color': 'blue'},
         })
 
-        chart.set_title({'name': f"{metric} vs. Month"})
+        chart.set_title({'name': f"{metric} per Month"})
         chart.set_x_axis({'name': 'Month'})
         chart.set_y_axis({'name': metric})
         chart.set_legend({'position': 'none'})
